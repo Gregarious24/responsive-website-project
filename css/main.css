@@ -89,6 +89,7 @@ textarea {
 
 .content-wrapper {
   outline: 3px dotted red;
+  margin: 50px 0;
   width: 90%;
 }
 
@@ -96,6 +97,7 @@ textarea {
 header {
   display: flex;
   justify-content: center;
+  padding: 15px 0;
 }
 
 header .content-wrapper {
@@ -103,12 +105,24 @@ header .content-wrapper {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 0;
+}
 
+.header-divider {
+  height: 1px;
+  margin: 10px 0 20px 0;
+  width: 100%;
+}
+
+header nav {
+  width: 60%;
 }
 
 header nav ul {
   display: flex;
   justify-content: space-around;
+  margin: 20px 0 15px 0;
+  width: 100%;
 }
 
 footer {
@@ -118,38 +132,57 @@ footer {
   text-align: center;
 }
 
+footer p {
+  margin: 0;
+}
+
+footer .content-wrapper {
+  margin: 50px 0;
+  width: 55%;
+}
+
+footer .contact {
+  margin-bottom: 50px;
+}
+
+
 footer .social-icons {
   align-items: center;
   display: flex;
   justify-content: space-around;
-
 }
 
 footer .social-icons p {
   display: flex;
   justify-content: center;
+}
 
+footer .copyright {
+  margin: 20px 0;
 }
 
 /* -------------------- Mobile Styles - Homepage -------------------- */
 
-/* Hero Area */
+/****** Hero Area ******/
 .hero-area {
   display: flex;
   justify-content: center;
 }
 
-/* Aside */
+/****** Aside ******/
 aside {
   display: flex;
   justify-content: center;
 }
 
-/* Features */
+/****** Features ******/
 .features {
   display: flex;
   justify-content: center;
+}
 
+.features h2 {
+  margin-bottom: 60px;
 }
 
 .features .features-items {
@@ -159,10 +192,27 @@ aside {
   justify-content: center;
 }
 
-/* Reviews */
+.features article {
+  margin: 30px 0;
+  width: 63%;
+}
+
+.features p {
+  margin: 0;
+}
+
+/****** Reviews ******/
 .reviews {
   display: flex;
   justify-content: center;
+}
+
+.reviews h2 {
+
+}
+
+.reviews h3 {
+  width: 55%;
 }
 
 /* ==========================================================================
@@ -179,6 +229,15 @@ aside {
   display: flex;
   flex-flow: row wrap;
   justify-content: center;
+  margin: 50px 0 0 0;
+}
+
+.faq h2 {
+  margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
 }
 
 /* ==========================================================================
@@ -193,6 +252,10 @@ aside {
 .contact-section {
   display: flex;
   justify-content: center;
+}
+
+.contact-content p {
+  margin: 0;
 }
 
 
