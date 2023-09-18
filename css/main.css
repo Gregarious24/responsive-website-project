@@ -370,6 +370,21 @@ input[type=button] {
   justify-content: center;
 }
 
+.map-container {
+  height: 0;
+  overflow: hidden;
+  padding-bottom: 125%;
+  position: relative;
+}
+
+.map-container iframe {
+  height: 100%;
+  left: 0;
+  position: absolute;
+  top: 0;
+  width: 100%;
+}
+
 .contact-section {
   background-color: #2a423a;
   display: flex;
@@ -641,6 +656,10 @@ input[type=button] {
     width: 45%;
   }
 
+  .map-container {
+    padding-bottom: 45.57%;
+  }
+
   .contact-section .content-wrapper h2 {
     width: 80%;
   }
@@ -746,6 +765,10 @@ input[type=button] {
   .contact-section .content-wrapper h2 {
     font-size: 3em;
     width: 95%;
+  }
+
+  .map-container {
+    padding-bottom: 37.5%;
   }
 
   .contact-content h4 {
