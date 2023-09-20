@@ -299,7 +299,7 @@ input[type=button] {
 }
 
 .features h2 {
-  margin-bottom: 60px;
+  margin: 0 0 60px 0;
 }
 
 .features .features-items {
@@ -334,7 +334,7 @@ input[type=button] {
 
 .reviews h2 {
   line-height: 1;
-  margin-bottom: 40px;
+  margin: 0 0 40px 0;
 }
 
 .reviews h3 {
@@ -662,6 +662,10 @@ input[type=button] {
   /* ==========================================================================
    About Page
    ========================================================================== */
+
+  .mission h2 {
+    margin: 0;
+  }
 
   .mission-content {
     align-items: flex-start;
